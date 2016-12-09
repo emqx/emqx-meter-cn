@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+===================
 EMQ-2.0性能测试报告
 ===================
 
-测试工具
---------
+测试工具:
 
 `XMeter`_ 在线性能测试服务
 
@@ -17,8 +17,7 @@ EMQ-2.0性能测试报告
 
 `fusesource-1.14`_ MQTT客户端
 
-测试环境
---------
+测试环境:
 
 EMQ版本: [emqttd-ubuntu16.04-v2.0.zip](http://emqtt.com/downloads/2006/ubuntu16_04)
 
@@ -28,15 +27,11 @@ EMQ版本: [emqttd-ubuntu16.04-v2.0.zip](http://emqtt.com/downloads/2006/ubuntu1
 
 压力机与被测系统之间的网络连接：青云北京三区内网基础网络，带宽约300MB
 
-测试场景
---------
+测试场景:
 
 本次测试主要包括并发连接测试和消息吞吐测试，共计27个测试场景。相关的具体测试报告请参见每个测试用例的详细描述。并发连接测试有TCP、SSL单向认证和SSL双向认证三种，共计9个测试场景。消息吞吐测试有多SUB、少PUB，少SUB、多PUB，峰值测试，共享主题，收发和延时测试6大类型。
 
 由于测试组合众多，测试场景的设计考虑了覆盖度和易于测试结果比较等因素，设计了18个测试场景。
-
-测试结果
---------
 
 .. toctree::
    :maxdepth: 2

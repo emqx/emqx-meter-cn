@@ -21,7 +21,7 @@
 测试环境
 --------
 
-EMQ版本: [emqttd-ubuntu16.04-v2.0.zip](http://emqtt.com/downloads/2006/ubuntu16_04)
+EMQ版本: `emqttd-ubuntu16.04-v2.0.zip`_
 
 测试机: 青云8核CPU，28GB内存，Ubuntu-16.04.1
 
@@ -60,4 +60,5 @@ EMQ版本: [emqttd-ubuntu16.04-v2.0.zip](http://emqtt.com/downloads/2006/ubuntu1
 .. _XMeter: http://xmeter.net
 .. _JMeter: http://jmeter.apache.org
 .. _fusesource-1.14: https://github.com/fusesource/mqtt-client
+.. _emqttd-ubuntu16.04-v2.0.zip: http://emqtt.com/downloads/2006/ubuntu16_04
 

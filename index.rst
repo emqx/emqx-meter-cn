@@ -37,3 +37,4 @@ EMQ-2.0性能测试报告
 | XMeter:    | http://xmeter.net              |
 +------------+--------------------------------+
 
+.. _XMeter: http://xmeter.net

@@ -19,11 +19,11 @@
 
    c) 实际数据，大小视测试场景而定
 
-2. EMQ消息服务器进行转发
+2. EMQ消息服务器进行转发。
 
-3. SUB端收到消息时，解开消息Payload，收到消息时候的时间戳与PUB端发出的时间戳进行相减得到该消息的时延，并将消息ID和时延存入文件${hostname}_ data_entries.log
+3. SUB端收到消息时，解开消息Payload，收到消息时候的时间戳与PUB端发出的时间戳进行相减得到该消息的时延，并将消息ID和时延存入文件${hostname}_ data_entries.log。
 
-4. 分析${hostname}_ data_entries.log的结果，得到平均时延和丢包率
+4. 分析${hostname}_ data_entries.log的结果，得到平均时延和丢包率。
 
 .. NOTE:: 由于EMQ的消息时延比较低，如果PUB和SUB不在同一台机器上的话，由于机器之间的时间不能完全同步，会导致上述第三步得到时延值不准确，因此该场景需要保证PUB和SUB运行在同一台机器上。
 

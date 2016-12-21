@@ -254,7 +254,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'EMQ20Benchmark.tex', u'EMQ-2.0性能测试报告',
-     u'李枫\\textless{}feng@emqtt.io\\textgreater{}', 'manual'),
+     u'杭州小莉科技有限公司\\textless{}contact@emqtt.io\\textgreater{}', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

@@ -8,3 +8,7 @@
 
 [XMeter.net](https://www.xmeter.net) [QingCloud.Com](https://www.qingcloud.com)
 
+版权
+----
+
+http://emqtt.com

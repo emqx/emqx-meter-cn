@@ -320,7 +320,7 @@ qos0-p64-20K-20K系统指标监控：
 Fastlane共享订阅
 ----------------------
 
-.. TODO:: qos1-p256-30K-30K、qos1-p256-40K-40K、qos2-p64-30K-30K 、qos2-p256-30K-30K、qos2-p64-20K-20K、qos2-p256-20K-20K
+.. TODO:: qos1-p256-30K-30K、qos1-p256-40K-40K、qos2-p64-30K-30K、qos2-p256-30K-30K、qos2-p64-20K-20K、qos2-p256-20K-20K
 
 订阅方式: $fastlane/$queue/<topic> 或 $fastlane/$share/<group>/<topic>
 

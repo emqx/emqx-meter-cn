@@ -110,9 +110,6 @@ qos0-p256-4-40K系统指标监控：
 .. image:: ./_static/images/qos0-fanout/qos0-p256-4-40K/part2.png
 
 
-
-.. TODO:: p100K测试待确认。
-
 -------------------
 QoS1 Fan-In消息吞吐
 -------------------
@@ -223,8 +220,6 @@ qos2-p256-20K-0系统指标监控：
 
 .. image:: ./_static/images/qos2-fanin/qos2-p256-20K-0/part2.png
 
-.. TODO:: p10K报文结果待确认。
-
 --------------------
 QoS2 Fan-Out消息吞吐
 --------------------
@@ -261,8 +256,6 @@ qos2-p256-4-20K系统指标监控：
 
 .. image:: ./_static/images/qos2-fanout/qos2-p256-4-20K/part2.png
 
-
-.. TODO:: p10K报文结果待确认。
 
 --------------
 共享订阅
@@ -314,13 +307,9 @@ qos0-p64-20K-20K系统指标监控：
 .. image:: ./_static/images/share-subscription/qos0-p64-20K-20K/part2.png
 
 
-.. TODO:: p10K报文结果待确认。
-
 ----------------------
 Fastlane共享订阅
 ----------------------
-
-.. TODO:: qos1-p256-30K-30K、qos1-p256-40K-40K、qos2-p64-30K-30K、qos2-p256-30K-30K、qos2-p64-20K-20K、qos2-p256-20K-20K
 
 订阅方式: $fastlane/$queue/<topic> 或 $fastlane/$share/<group>/<topic>
 

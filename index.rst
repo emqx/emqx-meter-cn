@@ -16,6 +16,7 @@ EMQ-2.0 性能测试报告
    connection
    throughput
    lantency
+   faq
 
 EMQ消息服务器由杭州小莉科技有限公司提供技术支持与服务:
 

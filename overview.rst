@@ -9,9 +9,9 @@
 测试工具
 --------
 
-`XMeter`_ 在线性能测试服务
+`XMeter`_ 在线性能测试服务，国内专业的性能测试服务提供商。
 
-`JMeter`_ 测试插件实现
+`JMeter1`_ 测试插件实现
 
 `JMeter`_ 3.0
 
@@ -38,6 +38,7 @@ EMQ版本: `emqttd-ubuntu16.04-v2.0.zip`_
 由于测试组合众多，测试场景的设计考虑了覆盖度和易于测试结果比较等因素，设计了18个测试场景。
 
 .. _XMeter: http://xmeter.net
+.. _JMeter1: https://github.com/XMeterSaaSService/mqtt-jmeter/tree/master/src/main/java/net/xmeter/emqtt/samplers
 .. _JMeter: http://jmeter.apache.org
 .. _fusesource-1.14: https://github.com/fusesource/mqtt-client
 .. _emqttd-ubuntu16.04-v2.0.zip: http://emqtt.com/downloads/2006/ubuntu16_04

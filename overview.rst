@@ -13,21 +13,20 @@
 
 `JMeter-MQTT`_ 测试插件实现
 
-`JMeter`_ 3.0
+`JMeter`_ 4.0
 
-`fusesource-1.14`_ MQTT客户端
 
 --------
 测试环境
 --------
 
-EMQ版本: `emqttd-ubuntu16.04-v2.0.zip`_
+EMQ版本: `emqx-ubuntu18.04-v3.0.zip`_
 
-测试机: 青云8核CPU，28GB内存，Ubuntu-16.04.1
+测试机: 青云8核CPU，32GB内存，Ubuntu-18.04.1
 
-压力机：青云8核CPU，8GB，CentOS 7
+压力机：青云8核CPU，8GB，CentOS 7.2
 
-压力机与被测系统之间的网络连接：青云北京三区内网基础网络，节点间带宽约500Mbps
+压力机与被测系统之间的网络连接：青云北京三区内网基础网络，节点间带宽约2Gbps
 
 --------
 测试场景
@@ -41,13 +40,10 @@ EMQ版本: `emqttd-ubuntu16.04-v2.0.zip`_
 测试报告
 --------
 
-在本报告中有一些到www.xmeter.net的链接，用户可以直接在线查看这些报告。这些共享报告包含了从客户端监测到的一些基本测试指标，EMQ服务器端的测试指标都已经随本报告提供。如果想查看这些报告，用户只需要在xmeter.net注册一个账户，点击这些报告链接就可以了。
-
-在查看Sub的测试报告的时候，请注意：由于Sub是异步调用和JMeter的实现机制等限制，无法准确知道响应时间和吞吐量等信息，目前Sub相关的报告只有虚拟用户数、返回成功率和下载的bytes等有效的指标。XMeter近期将对JMeter的Sub插件进行增强，将会取得准确的响应时间和吞吐量等信息。
+EMQ服务器端的测试指标都已经随本报告提供。
 
 .. _XMeter: http://xmeter.net
 .. _JMeter-MQTT: https://github.com/XMeterSaaSService/mqtt-jmeter/tree/master/src/main/java/net/xmeter/emqtt/samplers
 .. _JMeter: http://jmeter.apache.org
 .. _fusesource-1.14: https://github.com/fusesource/mqtt-client
-.. _emqttd-ubuntu16.04-v2.0.zip: http://emqtt.com/downloads/2006/ubuntu16_04
-
+.. _emqx-ubuntu18.04-v3.0-rc.4.zip: http://emqx.io/

@@ -13,14 +13,14 @@
 
 `JMeter-MQTT`_ 测试插件实现
 
-`JMeter`_ 4.0
+`JMeter`_ 版本JMeter4.0
 
 
 --------
 测试环境
 --------
 
-EMQ版本: `emqx-ubuntu18.04-v3.0.zip`_
+EMQ版本: `emqx-ubuntu18.04-v3.0.0.zip`
 
 测试机: 青云8核CPU，32GB内存，Ubuntu-18.04.1
 
@@ -44,6 +44,6 @@ EMQ服务器端的测试指标都已经随本报告提供。
 
 .. _XMeter: http://xmeter.net
 .. _JMeter-MQTT: https://github.com/XMeterSaaSService/mqtt-jmeter/tree/master/src/main/java/net/xmeter/emqtt/samplers
-.. _JMeter: http://jmeter.apache.org
+.. _JMeter4.0: http://jmeter.apache.org
 .. _fusesource-1.14: https://github.com/fusesource/mqtt-client
-.. _emqx-ubuntu18.04-v3.0-rc.4.zip: http://emqx.io/
+.. _emqx-ubuntu18.04-v3.0.0.zip: https://emqx.io/

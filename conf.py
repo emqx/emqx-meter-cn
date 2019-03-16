@@ -54,7 +54,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'EMQX-3.0.0性能测试报告'
 copyright = u'2018, 杭州映云科技有限公司'
-author = u'XMeter>'
+author = u'Fahua Jin<jinfahua@xmeter.net>'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -322,7 +322,7 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'EMQX-3.0.0性能测试报告'
-epub_author = u'XMeter'
+epub_author = 'Fahua Jin<jinfahua@xmeter.net>'
 epub_publisher = u'杭州映云科技有限公司'
 epub_copyright = u'2018,杭州映云科技有限公司'
 

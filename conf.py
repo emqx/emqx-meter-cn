@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 #
+<<<<<<< HEAD
 # EMQ-3.0.0性能测试报告 documentation build configuration file, created by
+=======
+# EMQ-3.0性能测试报告 documentation build configuration file, created by
+>>>>>>> master
 # sphinx-quickstart on Thu Dec  8 18:06:27 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -52,16 +56,26 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+<<<<<<< HEAD
 project = u'EMQX-3.0.0性能测试报告'
 copyright = u'2018, 杭州映云科技有限公司'
 author = u'Fahua Jin<jinfahua@xmeter.net>'
+=======
+project = u'EMQX-3.0性能测试报告'
+copyright = u'2018, 杭州映云科技有限公司'
+author = u'XMeter>'
+>>>>>>> master
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
+<<<<<<< HEAD
 version = u'3.0.0'
+=======
+version = u'3.0'
+>>>>>>> master
 # The full version, including alpha/beta/rc tags.
 release = u'3.0.0'
 
@@ -256,7 +270,11 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
+<<<<<<< HEAD
     (master_doc, 'EMQX30Benchmark.tex', u'EMQX-3.0.0性能测试报告',
+=======
+    (master_doc, 'EMQX30Benchmark.tex', u'EMQX-3.0性能测试报告',
+>>>>>>> master
      u'杭州映云科技有限公司\\textless{}contact@emqx.io\\textgreater{}', 'manual'),
 ]
 
@@ -286,7 +304,11 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
+<<<<<<< HEAD
     (master_doc, 'emqx30benchmark', u'EMQX-3.0.0性能测试报告',
+=======
+    (master_doc, 'emqx30benchmark', u'EMQX-3.0性能测试报告',
+>>>>>>> master
      [author], 1)
 ]
 
@@ -300,8 +322,13 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
+<<<<<<< HEAD
     (master_doc, 'EMQX30Benchmark', u'EMQX-3.0.0性能测试报告',
      author, '李枫', 'EMQ-3.0.0性能测试报告.',
+=======
+    (master_doc, 'EMQX30Benchmark', u'EMQX-3.0性能测试报告',
+     author, '李枫', 'EMQ-3.0性能测试报告.',
+>>>>>>> master
      'Miscellaneous'),
 ]
 
@@ -321,8 +348,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
+<<<<<<< HEAD
 epub_title = u'EMQX-3.0.0性能测试报告'
 epub_author = 'Fahua Jin<jinfahua@xmeter.net>'
+=======
+epub_title = u'EMQX-3.0性能测试报告'
+epub_author = u'XMeter'
+>>>>>>> master
 epub_publisher = u'杭州映云科技有限公司'
 epub_copyright = u'2018,杭州映云科技有限公司'
 
